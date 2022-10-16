@@ -175,15 +175,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('frontend/css/responsive.css') }}" rel="stylesheet">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
 <body class="home header-transparent  header-sticky header-v1 hide-topbar-mobile">
     <div id="page">
 
         <!-- Preloader-->
-        <div class="preloader"></div>
+        {{-- <div class="preloader"></div> --}}
 
         <!-- topbar -->
         <div id="fh-header-minimized" class="fh-header-minimized fh-header-v1"></div>
@@ -1461,7 +1459,7 @@
     <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a>
 
     <!--Color switcher-->
-    <div class="demo_changer" id="demo_changer">
+    {{-- <div class="demo_changer" id="demo_changer">
         <div class="demo-icon fa fa-sliders"></div>
         <div class="form_holder">
             <h3 class="demo-title">Customize CargoHub</h3>
@@ -1480,7 +1478,7 @@
             </div>
             <div class="line"></div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- jquery Liabrary -->
     <script src="{{ asset('frontend/js/jquery-1.12.4.min.js') }}"></script>
