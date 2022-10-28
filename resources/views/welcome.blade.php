@@ -321,9 +321,9 @@
         <div class="welcomesec secpadd">
             <div class="container">
                 <div class="fh-section-title clearfix  text-center version-dark paddbtm20">
-                    <h2>Welcome to Cargo <span class="main-color">Hub</span></h2>
+                    <h2>Welcome to Usa <span class="main-color">Logistics</span></h2>
                 </div>
-                <p class="haeadingpara text-center paddbtm40">Cargo HUB is more than logistics.
+                <p class="haeadingpara text-center paddbtm40">Usa Logistics is more than logistics.
                     <br /> We can also optimize your packaging, manage your materials sourcing, and so much more.
                 </p>
 
@@ -449,7 +449,7 @@
         <!--home counters -->
         <section class="homecounts">
             <div class="container">
-                <h2 class="count-title">Cargo <span class="main-color">Hub</span> is a Global Supplier of Transport
+                <h2 class="count-title">Usa <span class="main-color">Logistics</span> is a Global Supplier of Transport
                     and logistics Solutions.</h2>
                 <div class="row">
                     <div class="col-lg-2 col-md-3 col-lg-offset-2">
@@ -524,7 +524,7 @@
                             <span class="fh-icon"><i class="flaticon-open-cardboard-box"></i></span>
                             <h4 class="box-title"><span>Careful Handling of Valuable Goods</span></h4>
                             <div class="desc">
-                                <p>Cargo HUB are transported at some stage of their journey along the world’s roads</p>
+                                <p>Usa Logistics are transported at some stage of their journey along the world’s roads</p>
                             </div>
                         </div>
                     </div>

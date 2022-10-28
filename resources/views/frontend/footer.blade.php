@@ -5,7 +5,7 @@
                     <div class="row">
                         <div class="contact col-md-3 col-xs-12 col-sm-12">
                             <a href="#" class="footer-logo"><img
-                                    src="{{ asset('frontend/images/logo-light.png') }}" alt="Footer Logo"></a>
+                                    src="{{ asset('frontend/images/logo-usa.png') }}" alt="Footer Logo" style="height: 80px; width: 80px"></a>
                         </div>
                         <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-signs"></i>
                             <p>Address : Cargo Hub,</p>
@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-3">
                             <div class="widget widget_text">
-                                <h4 class="widget-title">About Cargo</h4>
+                                <h4 class="widget-title">About Usa Logistics</h4>
                                 <div class="textwidget">
                                     <p>Cargo HUB Logistics Services is a global supplier of transport and logistics
                                         solutions. We have offices in more than 20 countries and an international

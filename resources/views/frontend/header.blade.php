@@ -121,9 +121,9 @@
                         <div class="site-logo col-md-3 col-sm-6 col-xs-6">
                             <a href="{{ url('/') }}" class="logo">
                                 <img src="{{ asset('frontend/images/logo-usa.png') }}" alt="CargoHub"
-                                    class="logo-light show-logo" style="height: 80px; width: 80px">
+                                    class="logo-light show-logo" style="height: 60px; width: 60px">
                                 <img src="{{ asset('frontend/images/logo-usa.png') }}" alt="CargoHub"
-                                    class="logo-dark hide-logo" style="height: 100px; width: 100px">
+                                    class="logo-dark hide-logo" style="height: 60px; width: 60px">
                             </a>
                             <h1 class="site-title"><a href="#">CargoHub</a></h1>
                             <h2 class="site-description">Just another Steel Themes Sites site</h2>
