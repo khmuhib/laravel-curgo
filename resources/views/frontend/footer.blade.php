@@ -8,16 +8,16 @@
                                     src="{{ asset('frontend/images/logo-usa.png') }}" alt="Footer Logo" style="height: 80px; width: 80px"></a>
                         </div>
                         <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-signs"></i>
-                            <p>Address : Cargo Hub,</p>
-                            <h4>NEWYORK 10012, USA</h4>
+                            <p>Address : Usa Logistics,</p>
+                            <h4>H #76, R #02, Chairman Bari, Banani,Dhaka-1213</h4>
                         </div>
                         <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-phone-call "></i>
-                            <p>Toll Free Number :</p>
-                            <h4>+44 567 890123 – 30</h4>
+                            <p>Contact :</p>
+                            <h4>+88 02-55040852</h4>
                         </div>
                         <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-clock-1"></i>
                             <p>Opening Hours :</p>
-                            <h4>MON – FRI: 8AM – 5PM</h4>
+                            <h4>SUN – THR: 8AM – 6PM</h4>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                             <div class="widget widget_text">
                                 <h4 class="widget-title">About Usa Logistics</h4>
                                 <div class="textwidget">
-                                    <p>Cargo HUB Logistics Services is a global supplier of transport and logistics
+                                    <p>Usa Logistics Services is a global supplier of transport and logistics
                                         solutions. We have offices in more than 20 countries and an international
                                         network of partners and agents.</p>
                                 </div>
@@ -48,12 +48,14 @@
                                 <h4 class="widget-title">Useful Links</h4>
                                 <div class="menu-service-menu-container">
                                     <ul class="menu">
-                                        <li><a href="#">All Services</a></li>
-                                        <li><a href="#">Ground Transport</a></li>
-                                        <li><a href="#">Cargo Service</a></li>
-                                        <li><a href="#">Warehousing</a></li>
-                                        <li><a href="#">Road Freight Forwarding</a></li>
-                                        <li><a href="#">Ocean Freight Forwarding</a></li>
+                                        <li><a href="{{ url('/services') }}">All Services</a></li>
+                                        <li><a href="{{ url('/ocean') }}">Ocean Service</a></li>
+                                        <li><a href="{{ url('/ground') }}">Ground Service</a></li>
+                                        <li><a href="{{ url('/custom') }}">Custom Clearance</a></li>
+                                        <li><a href="{{ url('/warehouse') }}">Warehouse Services</a></li>
+                                        <li><a href="{{ url('/supply') }}">Supply Chain Solutions</a></li>
+                                        <li><a href="{{ url('/project') }}">Project</a></li>
+                                        <li><a href="{{ url('/information') }}">Information Services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -154,12 +156,12 @@
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="footer-copyright col-md-6 col-sm-12 col-sx-12">
-                        <div class="site-info">Copyright @ 2017 <a href="#">Steelthemes</a>, All Right
+                    <div class="footer-copyright col-md-12 col-sm-12 col-sx-12">
+                        <div class="site-info text-center">Copyright @ 2022 <a href="#">UsaLogistics</a>, All Right
                             Reserved </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 text-right footer-text"><a href="#">Purchase
-                            Now</a> </div>
+                    {{-- <div class="col-md-6 col-sm-12 col-xs-12 text-right footer-text"><a href="#">Purchase
+                            Now</a> </div> --}}
                 </div>
             </div>
         </footer>

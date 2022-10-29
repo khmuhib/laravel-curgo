@@ -28,6 +28,46 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/air', function () {
+    return view('air');
+});
+
+Route::get('/custom', function () {
+    return view('custom');
+});
+
+Route::get('/ground', function () {
+    return view('ground');
+});
+
+Route::get('/information', function () {
+    return view('information');
+});
+
+Route::get('/ocean', function () {
+    return view('ocean');
+});
+
+Route::get('/project', function () {
+    return view('project');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/supply', function () {
+    return view('supply');
+});
+
+Route::get('/warehouse', function () {
+    return view('warehouse');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

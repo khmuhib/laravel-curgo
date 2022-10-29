@@ -137,16 +137,16 @@
                                     <li class="has-children"><a href="services.html"
                                             class="dropdown-toggle">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="services.html">All Services</a></li>
-                                            <li><a href="road-freight-forwarding.html">Air Service</a></li>
-                                            <li><a href="ocean-freight-forwarding.html">Ocean Service</a>
+                                            <li><a href="{{ url('/services') }}">All Services</a></li>
+                                            <li><a href="{{ url('/air') }}">Air Service</a></li>
+                                            <li><a href="{{ url('/ocean') }}">Ocean Service</a>
                                             </li>
-                                            <li><a href="air-freight-forwarding.html">Ground Service</a></li>
-                                            <li><a href="warehousing.html">Custom Clearance</a></li>
-                                            <li><a href="door-to-door-delivery.html">Warehouse Services</a></li>
-                                            <li><a href="ground-transport.html">Supply Chain Solutions</a></li>
-                                            <li><a href="worldwide-transport.html">Project</a></li>
-                                            <li><a href="cargo-service.html">Information Services</a></li>
+                                            <li><a href="{{ url('/ground') }}">Ground Service</a></li>
+                                            <li><a href="{{ url('/custom') }}">Custom Clearance</a></li>
+                                            <li><a href="{{ url('/warehouse') }}">Warehouse Services</a></li>
+                                            <li><a href="{{ url('/supply') }}">Supply Chain Solutions</a></li>
+                                            <li><a href="{{ url('/project') }}">Project</a></li>
+                                            <li><a href="{{ url('/information') }}">Information Services</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{ url('/contact') }}">Contact</a></li>

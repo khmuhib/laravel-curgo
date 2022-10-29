@@ -321,7 +321,7 @@
         <div class="welcomesec secpadd">
             <div class="container">
                 <div class="fh-section-title clearfix  text-center version-dark paddbtm20">
-                    <h2>Welcome to Usa <span class="main-color">Logistics</span></h2>
+                    <h2>Welcome to <span class="main-color">Usa Logistics Ltd.</span> <span style="color: #37287C">In Bangladesh</span></h2>
                 </div>
                 <p class="haeadingpara text-center paddbtm40">Usa Logistics is more than logistics.
                     <br /> We can also optimize your packaging, manage your materials sourcing, and so much more.
