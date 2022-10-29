@@ -2,8 +2,9 @@
     <h4 class="widget-title">Our Services</h4>
     <ul class="menu service-menu">
         <li><a href="{{ url('/services') }}">See All Services</a></li>
-        <li class="menu-item current-menu-item"><a href="{{ url('/air') }}">Air Service</a></li>
-        <li class="menu-item ><a href="{{ url('/ocean') }}">Ocean Service</a></li>
+        {{-- <li class="menu-item current-menu-item"><a href="{{ url('/air') }}">Air Service</a></li> --}}
+        <li class="menu-item "><a href="{{ url('/air') }}">Air Service</a></li>
+        <li class="menu-item "><a href="{{ url('/ocean') }}">Ocean Service</a></li>
         <li class="menu-item "><a href="{{ url('/ground') }}">Ground Service</a></li>
         <li class="menu-item "><a href="{{ url('/custom') }}">Custom Clearance</a></li>
         <li class="menu-item "><a href="{{ url('/warehouse') }}">Warehouse Services</a></li>

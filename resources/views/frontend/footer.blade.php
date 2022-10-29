@@ -29,7 +29,7 @@
                             <div class="widget widget_text">
                                 <h4 class="widget-title">About Usa Logistics</h4>
                                 <div class="textwidget">
-                                    <p>Usa Logistics Services is a global supplier of transport and logistics
+                                    <p>Usa Logistics Ltd Services is a global supplier of transport and logistics
                                         solutions. We have offices in more than 20 countries and an international
                                         network of partners and agents.</p>
                                 </div>
@@ -54,8 +54,8 @@
                                         <li><a href="{{ url('/custom') }}">Custom Clearance</a></li>
                                         <li><a href="{{ url('/warehouse') }}">Warehouse Services</a></li>
                                         <li><a href="{{ url('/supply') }}">Supply Chain Solutions</a></li>
-                                        <li><a href="{{ url('/project') }}">Project</a></li>
-                                        <li><a href="{{ url('/information') }}">Information Services</a></li>
+                                        {{-- <li><a href="{{ url('/project') }}">Project</a></li>
+                                        <li><a href="{{ url('/information') }}">Information Services</a></li> --}}
                                     </ul>
                                 </div>
                             </div>
