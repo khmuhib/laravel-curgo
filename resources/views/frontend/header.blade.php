@@ -134,7 +134,7 @@
                                     <li><a href="{{ url('/') }}" class="dropdown-toggle">Home</a>
                                     <li><a href="{{ url('/about') }}" class="dropdown-toggle active">About</a>
                                     </li>
-                                    <li class="has-children"><a href="services.html"
+                                    <li class="has-children"><a
                                             class="dropdown-toggle">Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ url('/services') }}">All Services</a></li>
@@ -150,10 +150,11 @@
                                         </ul>
                                     </li>
                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                    <li><a href="{{ url('/gallery') }}">Gallery</a></li>
                                     <li><a href="https://s567.use6.mysecurecloudhost.com:2096/webmaillogout.cgi" class="dropdown-toggle">Webmail</a>
                                     </li>
                                     <li class="extra-menu-item menu-item-button-link">
-                                        <a href="request-a-quote.html" class="fh-btn btn">Get A Quote</a>
+                                        <a href="{{ url('/contact') }}" class="fh-btn btn">Get A Quote</a>
                                     </li>
                                 </ul>
                             </nav>

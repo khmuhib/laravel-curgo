@@ -68,6 +68,10 @@ Route::get('/warehouse', function () {
     return view('warehouse');
 });
 
+Route::get('/gallery', function () {
+    return view('gallary');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

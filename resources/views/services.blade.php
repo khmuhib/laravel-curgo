@@ -54,112 +54,112 @@
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('air') }}"></a>
+                                    <a href="{{ url('air') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-1.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
                                     <h2 class="entry-title"><a href="#">Air Service</a></h2>
                                     <p>Cargo are transported at some stage of their journey along the world’s roads where we give you a presence.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('air') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('ocean') }}"></a>
+                                    <a href="{{ url('ocean') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-2.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Ocean Service</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('ocean') }}">Ocean Service</a></h2>
                                     <p>Ocean Freight plays perhaps the most vital role in most transportation and supply chain solutions.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('ocean') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="h.html#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('ground') }}"></a>
+                                    <a href="{{ url('ground') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-3.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Ground Service</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('ground') }}">Ground Service</a></h2>
                                     <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored transportation</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('ground') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('custom') }}"></a>
+                                    <a href="{{ url('custom') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-3.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Custom Clearance</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('custom') }}">Custom Clearance</a></h2>
                                     <p>Package and store your things effectively and securely to make sure them in storage, have certified warehouse.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('custom') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('warehouse') }}"></a>
+                                    <a href="{{ url('warehouse') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-5.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Warehouse Services</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('warehouse') }}">Warehouse Services</a></h2>
                                     <p>Our expertise in transport management and planning allows us to design a solution. hand over the parcel at your door.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('warehouse') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="h.html#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('supply') }}"></a>
+                                    <a href="{{ url('supply') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-6.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Supply Chain Solutions</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('supply') }}">Supply Chain Solutions</a></h2>
                                     <p>Ground transportation options for all visitors, no matter your needs, schedule or destination.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('supply') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('project') }}"></a>
+                                    <a href="{{ url('project') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-7.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Project</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('project') }}">Project</a></h2>
                                     <p>Specialises in international freight forwarding of merchandise and associated general and all logistic services.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('project') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-service  col-xs-12 col-sm-6 col-md-4">
                             <div class="service-content">
                                 <div class="entry-thumbnail">
-                                    <a class="link" href="#"></a>
-                                    <a href="#"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                    <a class="link" href="{{ url('information') }}"></a>
+                                    <a href="{{ url('information') }}"><span class="icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
                                     <img src="{{ asset('frontend/images/services/serv-8.jpg') }}" alt="">
                                 </div>
                                 <div class="summary">
-                                    <h2 class="entry-title"><a href="#">Information Services</a></h2>
+                                    <h2 class="entry-title"><a href="{{ url('information') }}">Information Services</a></h2>
                                     <p>Delivery of any freight from one place to another place quickly to save your cost and save your valuable time.</p>
-                                    <a href="#" class="read-more">Read More...</a>
+                                    <a href="{{ url('information') }}" class="read-more">Read More...</a>
                                 </div>
                             </div>
                         </div>

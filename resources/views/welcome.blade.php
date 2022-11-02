@@ -328,10 +328,10 @@
                 </p>
 
                 <div class="welservices row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left">
+                    <div class="col-md-4 col-sm-6" >
+                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left" style="height: 300px">
                             <span class="fh-icon"><i class="flaticon-transport-3"></i></span>
-                            <h4 class="box-title"><a href="#">Air Freight Forwarding</a></h4>
+                            <h4 class="box-title"><a href="#">Freight Forwarder</a></h4>
                             <div class="desc">
                                 <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
                                     transportation</p>
@@ -339,9 +339,9 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left">
+                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left" style="height: 300px">
                             <span class="fh-icon"><i class="flaticon-transport-4"></i></span>
-                            <h4 class="box-title"><a href="#">Ocean Freight Forwarding</a></h4>
+                            <h4 class="box-title"><a href="#">Custom Clearing and Forwarding</a></h4>
                             <div class="desc">
                                 <p>Ocean Freight plays perhaps the most vital role in most transportation and supply
                                     chain solutions.</p>
@@ -349,9 +349,9 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left">
+                        <div class="fh-icon-box icon-type-theme_icon style-1 version-dark hide-button icon-left" style="height: 300px">
                             <span class="fh-icon"><i class="flaticon-transport-5"></i></span>
-                            <h4 class="box-title"><a href="#">Road Freight Forwarding</a></h4>
+                            <h4 class="box-title"><a href="#">Out sourcing</a></h4>
                             <div class="desc">
                                 <p>Cargo are transported at some stage of their journey along the world’s roads where we
                                     give you a reassuring presence.</p>
